@@ -73,7 +73,7 @@ Main/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/faycalsaid/school-project-c-sharp-mvc-app.git
+   git clone <repository-url>
    cd school-project-c-sharp-mvc-app
    ```
 
@@ -88,7 +88,7 @@ Main/
    - Create a new LocalDB database named `M2L_TeamB`
    - Configure the connection string in `DAO/DAOFactory.cs` if needed:
      ```csharp
-     "Data Source=(localdb)\\MyInstance; Initial Catalog=M2L_TeamB; User Id=root; Password=root;"
+     "Data Source=(localdb)\\MyInstance; Initial Catalog=M2L_TeamB; User Id=<your_username>; Password=<your_password>;"
      ```
 
 5. **Build and run:**
